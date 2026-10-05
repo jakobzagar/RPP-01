@@ -4,12 +4,12 @@ int main() {
     double a, b;
     char operacija;
 
-    std::cout << "Vnesi prvo stevilo za izracun: ";
+    std::cout << "Vnesi prvo število za izračun: ";
 
     std::cout << "Vnesi operacijo (+, -, *, /): ";
     std::cin >> operacija;
 
-    std::cout << "Vnesi drugo stevilo: ";
+    std::cout << "Vnesi drugo število: ";
     std::cin >> b;
 
     if (operacija == '+')
