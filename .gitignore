@@ -1,0 +1,15 @@
+# CMake build directories
+/build/
+/cmake-build-*/
+
+# CLion settings
+/.idea/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+/app
+
+# macOS files
+.DS_Store
