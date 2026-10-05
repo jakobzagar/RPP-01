@@ -5,7 +5,6 @@ int main() {
     char operacija;
 
     std::cout << "Vnesi prvo stevilo za izracun: ";
-    std::cin >> a;
 
     std::cout << "Vnesi operacijo (+, -, *, /): ";
     std::cin >> operacija;
