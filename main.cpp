@@ -13,21 +13,34 @@ int main() {
     std::cout << "Vnesi drugo stevilo: ";
     std::cin >> b;
 
-    if (operacija == '+') {
+    if (operacija == '+')
+    {
         std::cout << a + b;
-    } else if (operacija == '-') {
+    }
+    else if (operacija == '-')
+    {
         std::cout << a - b;
-    } else if (operacija == '*') {
+    }
+    else if (operacija == '*')
+    {
         std::cout << a * b;
-    } else if (operacija == '/') {
-        if (b == 0) {
+    }
+    else if (operacija == '/')
+    {
+        if (b == 0)
+        {
             std::cout << "Deljenje z nic ni dovoljeno.";
-        } else {
+        }
+        else
+        {
             std::cout << a / b;
         }
-    } else {
+    }
+    else
+    {
         std::cout << "Napacna operacija.";
     }
+
     std::cout << '\n';
     return 0;
 }
