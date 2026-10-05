@@ -4,7 +4,7 @@ int main() {
     double a, b;
     char operacija;
 
-    std::cout << "Vnesi prvo stevilo: ";
+    std::cout << "Vnesi prvo stevilo za izracun: ";
     std::cin >> a;
 
     std::cout << "Vnesi operacijo (+, -, *, /): ";
