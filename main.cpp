@@ -1,5 +1,7 @@
 #include <iostream>
 
+// detached
+
 int main() {
     double a, b;
     char operacija;
