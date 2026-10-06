@@ -40,6 +40,8 @@ int main() {
         std::cout << "Napacna operacija. Dovoljene operacije: +, -, *, /.";
     }
 
+    std::cout << "Hvala za uporabo kalkulatorja." << '\n';
+
     std::cout << '\n';
     return 0;
 }
