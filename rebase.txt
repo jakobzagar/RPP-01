@@ -1,3 +1,1 @@
 REBASE
-Primer interaktivnega rebase.
-Dva commita bomo zdruzili v enega.
