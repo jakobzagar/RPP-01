@@ -1,0 +1,22 @@
+name: Build calculator
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure project
+        run: cmake -S . -B build
+
+      - name: Build project
+        run: cmake --build build
