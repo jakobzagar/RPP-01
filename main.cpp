@@ -1,7 +1,5 @@
 #include <iostream>
 
-// Konzolni kalkulator.
-
 int main() {
     double a, b;
     char operacija;
