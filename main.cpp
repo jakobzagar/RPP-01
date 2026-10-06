@@ -30,7 +30,7 @@ int main() {
     {
         if (b == 0)
         {
-            std::cout << "Deljenje z nic ni dovoljeno.";
+            std::cout << "Napaka: drugo stevilo pri deljenju ne sme biti 0.";
         }
         else
         {
