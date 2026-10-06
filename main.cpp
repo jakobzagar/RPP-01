@@ -7,6 +7,7 @@ int main() {
     char operacija;
 
     std::cout << "Vnesi prvo število za izračun: ";
+    std::cin >> a;
 
     std::cout << "Vnesi operacijo (+, -, *, /): ";
     std::cin >> operacija;
