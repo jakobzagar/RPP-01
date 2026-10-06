@@ -44,10 +44,6 @@ Pri gradnji z Visual Studio v konfiguraciji Debug:
 .\build\Debug\app.exe
 ```
 
-## Trenutna omejitev
-
-Program še ne preverja veljavnosti številskega vnosa. Ob pozivih za števili zato vnesi veljavni številski vrednosti.
-
 ## Primer uporabe
 
 Vnesi prvo število, operacijo in drugo število, vsako v svoji vrstici. Za izračun `12.5 + 7.5` je vnos:
@@ -57,8 +53,6 @@ Vnesi prvo število, operacijo in drugo število, vsako v svoji vrstici. Za izra
 +
 7.5
 ```
-
-Pričakovani rezultat je `20`. Program nato izpiše sporočilo `Hvala za uporabo kalkulatorja.` in se zaključi. Za nov izračun ga ponovno zaženi.
 
 ## Struktura projekta
 
