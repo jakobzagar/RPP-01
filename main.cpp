@@ -37,7 +37,7 @@ int main() {
     }
     else
     {
-        std::cout << "Napacna operacija.";
+        std::cout << "Napacna operacija. Dovoljene operacije: +, -, *, /.";
     }
 
     std::cout << '\n';
